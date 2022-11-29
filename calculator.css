@@ -1,0 +1,25 @@
+.cal_body{
+    width: 400px;
+    height: 600px;
+    background-color:grey ;
+    margin-left: 490px;
+    margin-top: 40px;
+}
+.screen{
+    width: 312px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 40px;
+    pointer-events: none;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 10px;
+    background-color: beige;
+}
+.buttons_div{
+    padding-top: 20px;
+    padding-left: 55px;
+}

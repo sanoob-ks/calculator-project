@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old calculator Project</title>
+    <link rel="stylesheet" href="calculator.css">
+    
+</head>
+<body>
+    <div class="main_boby">
+        <div class="cal_body"> 
+            <div class="input_body">
+                <input type="text" name="" id="input_screen" class="screen">
+            </div>
+            <div class="buttons_div">
+                <button onclick="clearScreen()" class="btn"><strong>C</strong></button>
+                <div class="row_1"> 
+                    <button onclick="btnClick(7)" class="btn"><strong>7</strong></button>
+                    <button onclick="btnClick(8)" class="btn"><strong>8</strong></button>
+                    <button onclick="btnClick(9)" class="btn"><strong>9</strong></button>
+                    <button onclick="operatorClick('/')" class="btn"><strong>/</strong></button>
+                </div>
+                <div class="row_2">
+                    <button onclick="btnClick(4)" class="btn"><strong>4</strong></button>
+                    <button onclick="btnClick(5)" class="btn"><strong>5</strong></button>
+                    <button onclick="btnClick(6)" class="btn"><strong>6</strong></button>
+                    <button onclick="operatorClick('*')" class="btn"><strong>*</strong></button>
+
+                </div>
+                <div class="row_3">
+                    <button onclick="btnClick(1)" class="btn"><strong>1</strong></button>
+                    <button onclick="btnClick(2)" class="btn"><strong>2</strong></button>
+                    <button onclick="btnClick(3)" class="btn"><strong>3</strong></button>
+                    <button onclick="operatorClick('-')" class="btn"><strong>-</strong></button>
+
+                </div>
+                <div class="row_4">
+                    <button onclick="btnClick('.')" class="btn"><strong>.</strong></button>
+                    <button onclick="btnclick(0)"class="btn"><strong>0</strong></button>
+                    <button onclick="equalClick()" class="btn"><strong>=</strong></button>
+                    <button onclick="operatorClick('+')" class="btn"><strong>+</strong></button>
+
+                </div>
+            </div>
+             
+        </div>
+    </div>
+
+
+
+    <script src="calculator.js"></script>    
+</body>
+</html>
